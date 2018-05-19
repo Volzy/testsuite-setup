@@ -1,0 +1,45 @@
+{
+  "src_folders" : ["tests/e2e"],
+  "output_folder" : "tests/reports/e2e",
+  "custom_commands_path" : "",
+  "custom_assertions_path" : "",
+  "page_objects_path" : "",
+  "globals_path" : "",
+
+  "selenium" : {
+    "start_process" : true,
+    "start_session": true,
+    "server_path" : "./tests/test-framework/bin/selenium-server-standalone-3.9.1.jar",
+    "log_path" : "",
+    "port" : 4444,
+    "cli_args" : {
+      "webdriver.chrome.driver" : "./tests/test-framework/bin/chromedriver 2",
+      "webdriver.gecko.driver" : "./tests/test-framework/bin/geckodriver 2"
+    }
+  },
+
+  "test_settings" : {
+    "default" : {
+      "launch_url" : "http://google.com",
+      "selenium_port"  : 4444,
+      "selenium_host"  : "localhost",
+      "silent": true,
+      "screenshots" : {
+        "enabled" : false,
+        "path" : ""
+      },
+      "desiredCapabilities": {
+        "browserName": "firefox",
+        "marionette": true,
+        "acceptInsecureCerts": true
+      }
+    },
+
+    "chrome" : {
+      "desiredCapabilities": {
+        "browserName": "chrome",
+        "acceptInsecureCerts": true
+      }
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "backstop_default",
+  "viewports": [
+    {
+      "label": "320x480",
+      "width": 320,
+      "height": 480
+    },
+    {
+      "label": "768x1024",
+      "width": 768,
+      "height": 1024
+    },
+    {
+      "label": "1024x768",
+      "width": 1024,
+      "height": 768
+    }
+  ],
+  "scenarios": [
+    {
+      "label": "BackstopJS Homepage",
+      "cookiePath": "backstop_data/engine_scripts/cookies.json",
+      "url": "https://garris.github.io/BackstopJS/",
+      "selectorExpansion": true,
+      "misMatchThreshold" : 0.1,
+      "requireSameDimensions": true
+    }
+  ],
+  "paths": {
+    "bitmaps_reference": "./tests/visual/data/backstop_data/bitmaps_reference",
+    "bitmaps_test": "./tests/visual/data/backstop_data/bitmaps_test",
+    "engine_scripts": "./tests/visual/data/backstop_data/engine_scripts",
+    "html_report": "./tests/reports/visual",
+    "ci_report": "./tests/ci_report"
+  },
+  "report": ["browser"],
+  "engine": "puppeteer",
+  "engineFlags": [],
+  "asyncCaptureLimit": 5,
+  "asyncCompareLimit": 50,
+  "debug": false,
+  "debugWindow": false
+}
