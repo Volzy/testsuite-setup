@@ -13,8 +13,8 @@
     "log_path" : "",
     "port" : 4444,
     "cli_args" : {
-      "webdriver.chrome.driver" : "./tests/test-framework/bin/chromedriver 2",
-      "webdriver.gecko.driver" : "./tests/test-framework/bin/geckodriver 2"
+      "webdriver.chrome.driver" : "./tests/test-framework/bin/chromedriver.exe",
+      "webdriver.gecko.driver" : "./tests/test-framework/bin/geckodriver.exe"
     }
   },
 

@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo 'Following commands are available:\ntest:e2e\ntest:unit\ntest:visual\ntest:all (for all of them)\n\nRun 'npm:test:visual:approve --filters' to approve changes to visual tests'",
-    "test:e2e": "./node_modules/.bin/nightwatch",
+    "test:e2e": "./node_modules/.bin/nightwatch -e default,chrome",
     "test:unit": "./node_modules/.bin/jest ./source",
     "test:visual": "./node_modules/.bin/backstop test",
     "test:visual:approve": "./node_modules/.bin/backstop approve",
