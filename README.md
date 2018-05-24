@@ -2,6 +2,10 @@
 
 This is a test / proof-of-concept repository to check out various types of tests and how they could serve well in a client project.
 
+## Installation
+Clone repo
+Run `npm install`
+
 ## Currently included
 - Unit tests (with Jest)
 - End 2 end tests (with Nightwatch / Selenium)
