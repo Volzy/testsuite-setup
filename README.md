@@ -15,7 +15,7 @@ Run `npm install`
 - npm test:unit to run Unit/integration tests
 - npm test:e2e to run Selenium tests
 - npm test:visual to run Backstop tests
-- npm test:visual approve --filters to approve changes to Backstop tests
+- npm test:visual:approve --filters to approve changes to Backstop tests
 - npm test:all to run all of them together
 
 ## Where are tests located
