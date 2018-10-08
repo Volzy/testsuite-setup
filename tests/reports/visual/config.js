@@ -3,8 +3,8 @@ report({
   "tests": [
     {
       "pair": {
-        "reference": "../../visual/data/backstop_data/bitmaps_reference/backstop_default_BackstopJS_Homepage_0_document_0_320x480.png",
-        "test": "../../visual/data/backstop_data/bitmaps_test/20180519-221058/backstop_default_BackstopJS_Homepage_0_document_0_320x480.png",
+        "reference": "..\\..\\visual\\data\\backstop_data\\bitmaps_reference\\backstop_default_BackstopJS_Homepage_0_document_0_320x480.png",
+        "test": "..\\..\\visual\\data\\backstop_data\\bitmaps_test\\20181008-133957\\backstop_default_BackstopJS_Homepage_0_document_0_320x480.png",
         "selector": "document",
         "fileName": "backstop_default_BackstopJS_Homepage_0_document_0_320x480.png",
         "label": "BackstopJS Homepage",
@@ -24,8 +24,8 @@ report({
     },
     {
       "pair": {
-        "reference": "../../visual/data/backstop_data/bitmaps_reference/backstop_default_BackstopJS_Homepage_0_document_1_768x1024.png",
-        "test": "../../visual/data/backstop_data/bitmaps_test/20180519-221058/backstop_default_BackstopJS_Homepage_0_document_1_768x1024.png",
+        "reference": "..\\..\\visual\\data\\backstop_data\\bitmaps_reference\\backstop_default_BackstopJS_Homepage_0_document_1_768x1024.png",
+        "test": "..\\..\\visual\\data\\backstop_data\\bitmaps_test\\20181008-133957\\backstop_default_BackstopJS_Homepage_0_document_1_768x1024.png",
         "selector": "document",
         "fileName": "backstop_default_BackstopJS_Homepage_0_document_1_768x1024.png",
         "label": "BackstopJS Homepage",
@@ -45,8 +45,8 @@ report({
     },
     {
       "pair": {
-        "reference": "../../visual/data/backstop_data/bitmaps_reference/backstop_default_BackstopJS_Homepage_0_document_2_1024x768.png",
-        "test": "../../visual/data/backstop_data/bitmaps_test/20180519-221058/backstop_default_BackstopJS_Homepage_0_document_2_1024x768.png",
+        "reference": "..\\..\\visual\\data\\backstop_data\\bitmaps_reference\\backstop_default_BackstopJS_Homepage_0_document_2_1024x768.png",
+        "test": "..\\..\\visual\\data\\backstop_data\\bitmaps_test\\20181008-133957\\backstop_default_BackstopJS_Homepage_0_document_2_1024x768.png",
         "selector": "document",
         "fileName": "backstop_default_BackstopJS_Homepage_0_document_2_1024x768.png",
         "label": "BackstopJS Homepage",
